@@ -6,7 +6,7 @@ fun main() {
     p.age = 25
     p.age = 80
     p.age = 10
-    p.name = "たけし"
+    p.name = "タケシ"
     println(p.message)
 }
 
@@ -18,16 +18,3 @@ class Person {
             return "${name}です。${age}才です。"
         }
 }
-
-
-
-//    var age: Int = 20
-//        set(value) {
-//            print("${field}才から${value}才になりました。")
-//            if (value < field) {
-//                println(" -> なんと！若返りましたよ！")
-//            } else if (value > field) {
-//                println(" -> ああ、年を取るのは、いやだなあ。")
-//            }
-//            field = value
-//        }

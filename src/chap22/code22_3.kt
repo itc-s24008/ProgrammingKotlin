@@ -6,6 +6,6 @@ fun main() {
         val number = text.toInt()
         println("number = $number")
     } catch (e: NumberFormatException) {
-        println("「{$text}」という文字は数値に変換できません。")
+        println("「${text}」という文字は数値に変換できません。")
     }
 }
