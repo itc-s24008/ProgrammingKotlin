@@ -1,7 +1,7 @@
 package chap08
 
 fun main() {
-    val original: Int = 100
+    val original: Int = 100000
 
     val a: Byte = original.toByte()
     val b: Short = original.toShort()

@@ -1,9 +1,11 @@
 package chap11
 
-import jdk.internal.joptsimple.internal.Messages.message
-
 fun main() {
     val age = 14
-    val massage = ""
 
+    if (age in 13..15) {
+        println("中学生です")
+    } else {
+        println("中学生ではありません")
+    }
 }
