@@ -8,12 +8,14 @@ fun main() {
 class Person(val name: String, var age: Int) {
     init {
         println("プライマリコンストラクタのイニシャライザが呼ばれました。")
-        println("指定されたパラメータは$name と$age です。")
+        println("指定されたパラメータは $name と $age です。")
     }
     constructor(age: Int) : this("名無しさん", age) {
         println("年齢だけを指定するセカンダリコンストラクタのイニシャライザが呼ばれました。")
     }
-    constructor(lastName: String, firstName: String) : this("$lastName $firstName", 20) {
-        println("苗字と名前を指定するセカンダリコンストラクタのイニシャライザが呼ばれました")
+
+    constructor(lastName: String, firstName: String) :
+            this("$lastName $firstName", 20) {
+        println("苗字と名前を指定するセカンダリコンストラクタのイニシャライザが呼ばれました。")
     }
 }
