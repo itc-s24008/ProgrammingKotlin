@@ -1,5 +1,7 @@
 package chap31
 
-abstract class FlyingPerson(name: String, age: Int) : Person(name, age), Flyable {
-
+class FlyingPerson(name: String, age: Int) : Person(name, age), Flyable {
+    override fun fly() {
+        println("まさか！人間が空を飛んでいます。")
+    }
 }

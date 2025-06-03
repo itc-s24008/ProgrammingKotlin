@@ -1,16 +1,7 @@
 package chap31
 
 interface Flyable {
-    fun fly()
-}
-
-class FlyingVehicle : Flyable {
-    override fun fly() {
-        println("この乗り物は空を飛びます。")
+    fun fly() {
+        println("未確認飛行物体です！")
     }
-}
-
-fun main() {
-    val vehicle = FlyingVehicle()
-    vehicle.fly()
 }
