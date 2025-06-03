@@ -1,13 +1,13 @@
 package chap17
 
 fun main() {
-    val a: MutableList<String> = mutableListOf("こんにちは", "Kotorin")
+    val a: MutableList<String> = mutableListOf("こんにちは", "Kotlin", "よろしく")
     for ((i, x) in a.withIndex()) {
         println("$i : $x")
     }
     println("-----")
-    a.add("どうぞ")
-    a.add("お願いします")
+    a.add(2, "どうぞ")
+    a += "お願いします"
     for ((i, x) in a.withIndex()) {
         println("$i : $x")
     }
