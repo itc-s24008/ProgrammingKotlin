@@ -1,8 +1,8 @@
 package chap26
 
 fun main() {
-    val p = Person(7)
-    val p2 = Person("鈴木", "タロウ")
+    Person(7)
+    Person("鈴木", "タロウ")
 }
 
 class Person(val name: String, var age: Int) {

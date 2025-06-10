@@ -13,14 +13,14 @@ fun main() {
 
     val listTime = measureTimeMillis {
         for (x in 0..100_000_0) {
-            val result = targetList.contains(x)
+            targetList.contains(x)
         }
     }
     println("MutableList の検索時間: $listTime ミリ秒")
 
     val setTime = measureTimeMillis {
         for (x in 0..100_000_0) {
-            val result = targetSet.contains(x)
+            targetSet.contains(x)
         }
     }
     println("MutableSet の検索時間: $setTime ミリ秒")

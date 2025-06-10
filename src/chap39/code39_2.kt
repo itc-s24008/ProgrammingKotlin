@@ -2,7 +2,7 @@ package chap39
 
 fun main() {
     printResult({ x, y -> x + y })
-    printResult() { x, y -> x - y }
+    printResult { x, y -> x - y }
     printResult { x, y -> x + y }
 }
 

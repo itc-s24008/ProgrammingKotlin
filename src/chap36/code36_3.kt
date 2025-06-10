@@ -20,11 +20,7 @@ class Person {
     }
 
     fun hoge() {
-        val under20 = if (age < 20) {
-             true
-        } else {
-            false
-        }
+        val under20 = age < 20
         println(under20)
         if (under20) {
             println("20才未満です")
