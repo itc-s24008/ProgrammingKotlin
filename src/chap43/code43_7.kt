@@ -6,7 +6,7 @@ fun main() {
     car.drive()
 
     println(": ${car.fuel}")
-    val prius = Prius2("")
-    prius.drive()
-    prius.drive()
+//    val prius = Prius2("")
+//    prius.drive()
+//    prius.drive()
 }

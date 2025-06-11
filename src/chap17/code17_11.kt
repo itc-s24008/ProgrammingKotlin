@@ -1,8 +1,8 @@
 package chap17
 
 fun main() {
-    mutableListOf(1, 2, 3, 4, 5)
-    mutableListOf()
-    mutableListOf<Int>()
+    val a = mutableListOf(1, 2, 3, 4, 5)
+    val b: MutableList<Int> = mutableListOf()
+    val c = mutableListOf<Int>()
 
 }

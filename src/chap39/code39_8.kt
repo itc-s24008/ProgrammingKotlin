@@ -3,9 +3,7 @@ package chap39
 import kotlin.random.Random
 
 fun main() {
-    randomNumberCalculate(6) {
-        it * 2
-    }
+
 }
 
 fun randomNuberCalculate(max: Int, calculator: (Int) -> Int) {

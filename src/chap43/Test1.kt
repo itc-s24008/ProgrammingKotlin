@@ -5,6 +5,6 @@ fun main() {
     testPublic2()
 
     val a = TestPublic()
-    val b = TestPrivate()
-    println(b)
+//    val b = TestPrivate()
+//    println(b)
 }

@@ -14,8 +14,8 @@ fun testPublic2() {
 }
 
 public class TestPublic() {
-    private val privateObject = TestPrivate()
-    val testClass: TestAbatract = private
+//    private val privateObject = TestPrivate()
+//    val testClass: TestAbatract = private
 }
 
 private class TestPublic2() {
