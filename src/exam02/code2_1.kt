@@ -1,16 +1,16 @@
 package exam02
+
 import kotlin.random.Random
 
-fun main() {
+class Dice(
+    val name: String,
+    val maxNumber: Int = 6
+) {
+    var number: Int = 1
+        private set
 
-}
-
-class Dice() {
-    var number: Int = 1  // 出目の初期値
-}
     fun roll() {
-
+        number = Random.nextInt(1, maxNumber + 1)
+        println("$name を振った結果: $number")
     }
-
-
-
+}

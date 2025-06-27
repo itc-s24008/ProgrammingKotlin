@@ -13,11 +13,9 @@ fun main() {
     println("== Battle Start ==")
     println("Player HP: ${player.hp}, Goblin HP: ${goblin.hp}")
 
-    // プレイヤーがゴブリンを攻撃
     player.attackTo(goblin)
     println("Goblin HP: ${goblin.hp}")
 
-    // ゴブリンがプレイヤーを攻撃
     goblin.attackTo(player)
     println("Player HP: ${player.hp}")
 }
